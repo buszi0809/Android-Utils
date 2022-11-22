@@ -7,6 +7,7 @@ plugins {
 }
 
 android {
+    namespace = "com.kwdev.viewscoped"
     compileSdk = AndroidVersion.compileSdk
     buildToolsVersion = AndroidVersion.buildTools
 
