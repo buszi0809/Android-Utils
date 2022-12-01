@@ -16,3 +16,4 @@ rootProject.name = "Android Utils"
 include ':app'
 include ':view-scoped-delegates'
 include ':results'
+include ':encrypted-data-store'

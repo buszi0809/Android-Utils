@@ -13,6 +13,12 @@ object Libs {
         const val compat = "androidx.appcompat:appcompat:1.5.1"
         const val fragment = "androidx.fragment:fragment:1.5.4"
         const val lifecycle = "androidx.lifecycle:lifecycle-runtime:2.5.1"
+
+        object DataStore {
+            private const val version = "1.0.0"
+
+            const val lib = "androidx.datastore:datastore-preferences:$version"
+        }
     }
 
     object Kotlin {
